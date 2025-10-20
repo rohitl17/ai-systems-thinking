@@ -223,6 +223,19 @@ Cohere delivers **enterprise-grade LLMs** prioritizing **security, performance, 
 
 ---
 
+## Model Comparison Summary
+
+| Model                | Developer / Org | License Type      | Context Window | Training Data Cutoff | Key Strengths / Use Cases | Notes |
+|----------------------|-----------------|-------------------|----------------|----------------------|----------------------------|-------|
+| **GPT-4-turbo**      | OpenAI          | Commercial (API)  | 128k tokens     | Apr 2024             | General reasoning, coding, creative writing, structured outputs | Optimized for performance and latency |
+| **Claude 3.5 Sonnet**| Anthropic       | Commercial (API)  | 200k tokens     | Mid-2024             | Long-context reasoning, document analysis, safety-focused apps | High accuracy in RAG and summarization |
+| **Gemini 1.5 Pro**   | Google DeepMind | Commercial (API)  | 1M tokens       | Mid-2024             | Multimodal (text, vision, code), enterprise integrations | Very large context window, strong at synthesis |
+| **Llama 3 70B**      | Meta            | Open Source (CC-BY-NC) | 8k–16k tokens | 2024                 | Fine-tuning, research, private deployment | Open weights; non-commercial license |
+| **Mistral 7B / Mixtral 8x7B** | Mistral | Open Source (Apache 2.0) | 8k tokens | 2024 | Lightweight, efficient, multilingual | Great for on-device and enterprise fine-tuning |
+| **Command R+**       | Cohere          | Commercial (API)  | 128k tokens | 2024 | Retrieval-augmented generation, enterprise data apps | Strong performance for structured knowledge queries |
+
+---
+
 ## Conclusion
 
 The landscape of **Large Language Models (LLMs)** is expanding faster than ever.  
@@ -231,5 +244,7 @@ Each model highlighted here represents a unique blend of **capability, openness,
 While no single model fits every use case, understanding the strengths of each helps teams align **AI model selection** with their **technical, operational, and business goals**.
 
 ---
+
+
 
 *Last updated: October 2025*
