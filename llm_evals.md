@@ -116,6 +116,28 @@ These metrics go beyond surface-level lexical overlap (like BLEU/ROUGE) to evalu
 | **CLIPScore** | Multimodal embedding metric | Measures alignment between text and visual embeddings | Uses CLIP model to compare text-to-image embeddings | Visual QA or multimodal systems (image + text) |
 
 ----
+
+📘 Notes
+
+Cosine-based metrics are simple, fast, and effective for QA evaluation.
+
+Contextual metrics like BERTScore or MoverScore capture deeper semantics.
+
+RAG-specific metrics (e.g., Recall@K) measure retrieval accuracy rather than generation quality.
+
+For end-to-end LLM QA systems, combine these metrics to balance semantic accuracy, context relevance, and retrieval performance.
+
+🧩 Recommended Stack for QA Evaluation Pipeline
+
+sentence-transformers → for embedding and cosine similarity
+
+bert-score → for contextual similarity
+
+LangChain or Evals → to orchestrate evaluation across prompts
+
+wandb or MLflow → to log metric trends over multiple model runs
+
+---
 ## ⚙️ Closing Thoughts
 Evaluating LLM applications goes far beyond “does it sound good.”  
 By embracing structured evals — whether code-based, human-based, or LLM-driven — teams can build **more reliable, data-driven, and high-performing AI systems.**
