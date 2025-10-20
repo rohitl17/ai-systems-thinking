@@ -139,7 +139,6 @@ wandb or MLflow → to log metric trends over multiple model runs
 
 ---
 ## ⚙️ Closing Thoughts
-Evaluating LLM applications goes far beyond “does it sound good.”  
 By embracing structured evals — whether code-based, human-based, or LLM-driven — teams can build **more reliable, data-driven, and high-performing AI systems.**
 
 The shift from *intuition to instrumentation* is what transforms experimental LLM prototypes into scalable, production-grade products.
